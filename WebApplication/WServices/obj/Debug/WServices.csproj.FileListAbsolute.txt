@@ -1,0 +1,16 @@
+C:\Users\armando.perez\source\repos\WebApplication\WServices\bin\Service1.svc
+C:\Users\armando.perez\source\repos\WebApplication\WServices\bin\Service1.svc.cs
+C:\Users\armando.perez\source\repos\WebApplication\WServices\bin\WServices.dll.config
+C:\Users\armando.perez\source\repos\WebApplication\WServices\bin\WServices.dll
+C:\Users\armando.perez\source\repos\WebApplication\WServices\bin\WServices.pdb
+C:\Users\armando.perez\source\repos\WebApplication\WServices\obj\Debug\WServices.csproj.CoreCompileInputs.cache
+C:\Users\armando.perez\source\repos\WebApplication\WServices\obj\Debug\WServices.dll
+C:\Users\armando.perez\source\repos\WebApplication\WServices\obj\Debug\WServices.pdb
+C:\Users\armando.perez\source\repos\WebApplication\WServices\obj\Debug\WServices.csprojAssemblyReference.cache
+C:\Users\armando.perez\source\repos\WebApplication\WServices\bin\ExcelDataReader.DataSet.dll
+C:\Users\armando.perez\source\repos\WebApplication\WServices\bin\ExcelDataReader.dll
+C:\Users\armando.perez\source\repos\WebApplication\WServices\bin\ExcelDataReader.pdb
+C:\Users\armando.perez\source\repos\WebApplication\WServices\bin\ExcelDataReader.xml
+C:\Users\armando.perez\source\repos\WebApplication\WServices\bin\ExcelDataReader.DataSet.pdb
+C:\Users\armando.perez\source\repos\WebApplication\WServices\bin\ExcelDataReader.DataSet.xml
+C:\Users\armando.perez\source\repos\WebApplication\WServices\obj\Debug\WServices.csproj.CopyComplete

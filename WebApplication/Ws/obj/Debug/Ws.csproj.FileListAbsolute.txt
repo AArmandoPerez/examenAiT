@@ -1,0 +1,8 @@
+C:\Users\armando.perez\source\repos\WebApplication\Ws\bin\Ws.dll.config
+C:\Users\armando.perez\source\repos\WebApplication\Ws\bin\Ws.dll
+C:\Users\armando.perez\source\repos\WebApplication\Ws\bin\Ws.pdb
+C:\Users\armando.perez\source\repos\WebApplication\Ws\obj\Debug\Ws.csproj.CoreCompileInputs.cache
+C:\Users\armando.perez\source\repos\WebApplication\Ws\obj\Debug\Ws.dll
+C:\Users\armando.perez\source\repos\WebApplication\Ws\obj\Debug\Ws.pdb
+C:\Users\armando.perez\source\repos\WebApplication\Ws\bin\WsPersonas.svc
+C:\Users\armando.perez\source\repos\WebApplication\Ws\bin\WsPersonas.svc.cs

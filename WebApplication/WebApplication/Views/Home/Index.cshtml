@@ -1,0 +1,102 @@
+﻿@model WebApplication.Models.User
+@{
+    ViewBag.Title = "Login";
+    Layout = null;
+}
+
+<script language="javascript" type="text/javascript">
+    function HazCallbacks(sIdCultura) {
+        cbkServicio.Callback(sIdCultura);
+        cbkUsuario.Callback(sIdCultura);
+        cbkClave.Callback(sIdCultura);
+        cbkAccesar.Callback(sIdCultura);
+    }
+</script>
+
+
+@using (Html.BeginForm("Login", "Home", FormMethod.Post, new { id = "formLogin" }))
+{
+    <form id="formLogin" runat="server">
+        <table cellspacing="0" cellpadding="0" width="100%" border="0" id="plantilla" runat="server" style="height:100%">
+            <tr>
+                <td style="height:100px"></td>
+            </tr>
+            <tr>
+                <td align="center" valign="middle">
+                    <table border="0" cellpadding="0" cellspacing="0" width="800">
+                        <tr>
+                            <td style="background-color:#ea9584; height:10px" colspan="2"></td>
+                        </tr>
+                        <tr>
+
+                            <td align="center" style="background-color:dodgerblue">
+                                <table>
+                                    <tr>
+                                        <td colspan="2">&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2" align="center">
+                                            <b>
+                                                <label class="AccesoEtiqueta">POR FAVOR INGRESE SUS DATOS</label>
+                                            </b>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">&nbsp;</td>
+                                    </tr>
+                                    <tr><td style="height:5px"></td></tr>
+                                    <tr>
+                                        <td align="right">
+                                            <b>@Html.LabelFor(m => m.UserName, new { @class = "AccesoEtiqueta" }):</b>
+                                        </td>
+                                        <td align="left">
+                                            @Html.TextBoxFor(u => u.UserName, new { @class = "AccesoEtiqueta" })
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>
+                                            <b>@Html.ValidationMessageFor(u => u.UserName, null, new { @class = "AccesoEtiqueta" })</b>
+                                        </td>
+                                    </tr>
+                                    <tr><td style="height:5px"></td></tr>
+                                    <tr>
+                                        <td align="right">
+                                            <b>@Html.LabelFor(u => u.Password, new { @class = "AccesoEtiqueta" }):</b>
+                                        </td>
+                                        <td align="left">
+                                            @Html.TextBoxFor(u => u.Password, new { @class = "AccesoEtiqueta", Type = "Password" })
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>
+                                            <b>@Html.ValidationMessageFor(u => u.Password, null, new { @class = "AccesoEtiqueta" })</b>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2" align="center">
+                                            <a href="#" onclick="document.getElementById('formLogin').submit()">
+                                                <img src="@Url.Content("~/fonts/btn_aceptar.gif")" />
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="background-color:#ea9584; height:10px" colspan="2"></td>
+
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <div style="text-align:center">
+            @Html.ValidationSummary(true, "Error de inicio de sesion. Verifique su información de inicio de sesión.");
+        </div>
+    </form>
+}
